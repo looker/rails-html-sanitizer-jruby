@@ -1,7 +1,7 @@
 require 'htmlentities'
 require 'rails/html/owasp/whitelist'
 
-require 'guava-11.0.2.jar'
+require 'guava-27.0.1-jre.jar'
 require 'owasp-java-html-sanitizer-r239.jar'
 
 java_import 'org.owasp.html.HtmlPolicyBuilder'
